@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import okhttp3.Headers;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -20,7 +21,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=56ac9f1b5bc39965643295e82c9fb468";
     public static final String TAG="MainActivity";
 

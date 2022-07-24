@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#181819"
     android:layout_width="match_parent" android:layout_height="wrap_content">
 
 <LinearLayout
@@ -26,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:text="TextViewJKKSHSKSHJFHSSFS"
         android:paddingTop="0dp" android:layout_marginTop="0dp"
@@ -35,6 +37,7 @@
         android:id="@+id/tvOverview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:layout_margin="5dp"
         android:text="shfjkshfkjshfjshjfhshfjshfshfkjshjkshfsfhksjhhkshfkjshjggghjcgcghgsgjsggfjsgfjsghsgjgfsgfjsgjfgjfgsfgjsgfjgsjfgsjgfjsgfjhsgfjsgfgsjhgfjsgfjs"
         />
